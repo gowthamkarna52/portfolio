@@ -122,7 +122,10 @@
   <!-- Resume -->
   <section id="resume" class="py-20 px-4 section text-center">
     <h2 class="text-3xl md:text-4xl font-bold mb-6">Download <span class="text-purple-200">Resume</span></h2>
-    <a href="Gowtham_S_Resume.pdf" download class="px-6 py-3 bg-white text-purple-800 rounded-full font-medium hover:bg-purple-100 transition">Download Resume (PDF)</a>
+    <a href="https://gowthamkarna52.github.io/<your-repo-name>/GOWTHAM_S.pdf" download
+       class="px-6 py-3 bg-white text-purple-800 rounded-full font-medium hover:bg-purple-100 transition">
+      Download Resume (PDF)
+    </a>
   </section>
 
   <!-- Certifications -->
@@ -171,35 +174,31 @@
       <li>🗣️ Effective Communicator</li>
       <li>⚡ Self-Motivated Learner</li>
       <li>🕒 Time Management</li>
-      <li>💡 Passion for IoT & Java</li>
+      <li>🤝 Team Player</li>
+      <li>🎯 Goal-Oriented</li>
     </ul>
   </section>
 
   <!-- Contact -->
   <section id="contact" class="py-20 px-4 section text-center">
-    <h2 class="text-3xl md:text-4xl font-bold mb-6">Get in <span class="text-purple-200">Touch</span></h2>
-    <p class="text-purple-100 mb-8">Feel free to reach out!</p>
-    <p><i class="fas fa-envelope mr-2"></i> gowthamkarna52@gmail.com</p>
-    <p><i class="fas fa-phone mr-2"></i> 9789253768</p>
-    <p><i class="fab fa-github mr-2"></i> <a href="https://github.com/gowthamkarna52" class="underline">GitHub</a></p>
-    <p><i class="fab fa-linkedin mr-2"></i> <a href="https://linkedin.com/in/gowtham-s-9683652b5" class="underline">LinkedIn</a></p>
+    <h2 class="text-3xl md:text-4xl font-bold mb-6">Contact <span class="text-purple-200">Me</span></h2>
+    <p class="mb-6">Feel free to reach out via email or phone!</p>
+    <p>Email: <a href="mailto:gowthamkarna52@gmail.com" class="text-purple-200 underline">gowthamkarna52@gmail.com</a></p>
+    <p>Phone: <a href="tel:9789253768" class="text-purple-200 underline">9789253768</a></p>
   </section>
 
-  <!-- Footer -->
-  <footer class="py-6 text-center bg-purple-900 text-white">
-    <p>&copy; 2025 Gowtham S. All Rights Reserved.</p>
-  </footer>
-
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const sections = document.querySelectorAll('.section');
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) entry.target.classList.add('visible');
-        });
-      }, { threshold: 0.1 });
-      sections.forEach(section => observer.observe(section));
-    });
+    // Simple animation on scroll to reveal sections
+    const sections = document.querySelectorAll('.section');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+    sections.forEach(section => observer.observe(section));
   </script>
+
 </body>
 </html>
