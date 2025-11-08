@@ -6,5 +6,5 @@ Personal website showcasing my projects and skills.
 - index.css – Stylesheet
 
 ## About Me
-I am just starting web development and am passionate about learning and building websites. 
-Mail me@ : gowthamkarna52@gmail.com
+I am just starting web development and it is my area of interest. 
+Mail me @ : gowthamkarna52@gmail.com
