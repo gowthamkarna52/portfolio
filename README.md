@@ -7,4 +7,5 @@ Personal website showcasing my projects and skills.
 
 ## About Me
 I am just starting web development and it is my area of interest. 
+
 Mail me @ : gowthamkarna52@gmail.com
